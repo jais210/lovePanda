@@ -7,8 +7,62 @@ font-family: 'Raleway', sans-serif;
 
 /* Escribe tu código acá debajo */
 
-/* seccion primera caja */
 
-#boxOne {
-    background: greenyellow;
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway';
+	font-size: 16px;
+}
+
+/* Seccion de encabezado*/
+.cabecera{
+	background-size: cover;
+	background-position: center;
+	background-color: #F78E69;
+	padding: 50px 0;
+
+}
+
+.texto {
+	color: white;
+	text-align: right;
+	margin-right: 20px;
+}
+
+.texto h1{
+	font-weight: bolder;
+ 	font-size :2.5rem;
+ 	line-height: 2.5rem;
+}
+
+/* Seccion de encabezado*/
+.panda img {
+	width: 100%;
+	height: 100%;
+	filter: grayscale(70%);
+}
+/* Seccion about */
+
+.about {
+	background-color: #ABE188;
+	padding: 90px 0;
+		border-top: 30px solid #F78E69;
+		border-bottom: 30px solid #F78E69;; 
+}
+
+#text {
+	background-color: #F78E69;
+	text-align: center;
+		color: white;
+		font-size: 1.5rem;
+		padding: 30px;
+		width: 90%;
+		margin : 0 auto;
+}
+
+#texto h1 {
+	padding: 20px 0;
+	font-size: 100%;
 }
